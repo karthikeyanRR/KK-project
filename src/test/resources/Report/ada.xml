@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="246.968059">
+<testcase classname="Validation of Adactin Hotel Web Page" name=": TC_ADA_01 Validation of Adactin Hotel Booking" time="48.032496">
+<system-out><![CDATA[Given User Launch Adactin Web Application...................................passed
+Then User Verify Adactin Login Page is Display..............................passed
+When User Enter the Valid Username and Password.............................passed
+And User Click the Login Button.............................................passed
+Then User Verify Search Hotel Page is Display...............................passed
+When User Enter Valid Location,Hotels,Room Type,Number of Room,Check in Date,Check Out Date,Adult Per Room and Child Per Room.passed
+And User Click the Search Button............................................passed
+Then User Verify Select Hotel Page is Dispaly...............................passed
+And User Click Radio Button.................................................passed
+And User Click Continue Button..............................................passed
+Then User Verify Book A Hotel Page is Display...............................passed
+When User Enter First Name,Last Name, Build Address.........................passed
+When User Enter Valid Cerdit Card No,Cerdit Card Type,Expiry No and CVV No..passed
+And User Click Book Now Button..............................................passed
+Then User Verify Book Confirmation Page and Order Id is Display.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Adactin Hotel Web Page" name="TC_ADA_02&#9;Validation of Adactin Hotel Booking" time="41.036971">
+<system-out><![CDATA[Given User Launch Adactin Web Application...................................passed
+Then User Verify Adactin Login Page is Display..............................passed
+When User Enter the Valid "KarthikeyanTest", "9ROZ5N".......................passed
+And User Click the Login Button.............................................passed
+Then User Verify Search Hotel Page is Display...............................passed
+When User Enter Valid "Sydney","Hotel Sunshine","Standard","2 - Two","17/03/2022","18/03/2022","2 - Two","0 - None".passed
+And User Click the Search Button............................................passed
+Then User Verify Select Hotel Page is Dispaly...............................passed
+And User Click Radio Button.................................................passed
+And User Click Continue Button..............................................passed
+Then User Verify Book A Hotel Page is Display...............................passed
+When User Enter "kar","key", "21/27 pappanna"...............................passed
+When User Enter valid "1234567890246891","VISA","November","2022" ,"420"....passed
+And User Click Book Now Button..............................................passed
+Then User Verify Book Confirmation Page and Order Id is Display.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Adactin Hotel Web Page" name="TC_ADA_02&#9;Validation of Adactin Hotel Booking 2" time="52.295171">
+<system-out><![CDATA[Given User Launch Adactin Web Application...................................passed
+Then User Verify Adactin Login Page is Display..............................passed
+When User Enter the Valid "KarthikeyanTest", "9ROZ5N".......................passed
+And User Click the Login Button.............................................passed
+Then User Verify Search Hotel Page is Display...............................passed
+When User Enter Valid "Melbourne","Hotel Hervey","Double","1 - One","18/03/2022","18/03/2022","2 - Two","0 - None".passed
+And User Click the Search Button............................................passed
+Then User Verify Select Hotel Page is Dispaly...............................passed
+And User Click Radio Button.................................................passed
+And User Click Continue Button..............................................passed
+Then User Verify Book A Hotel Page is Display...............................passed
+When User Enter "siva","kumar", "cbe".......................................passed
+When User Enter valid "2345678912348904","VISA","November","2022" ,"411"....passed
+And User Click Book Now Button..............................................passed
+Then User Verify Book Confirmation Page and Order Id is Display.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Adactin Hotel Web Page" name="TC_ADA_02&#9;Validation of Adactin Hotel Booking 3" time="48.392458">
+<system-out><![CDATA[Given User Launch Adactin Web Application...................................passed
+Then User Verify Adactin Login Page is Display..............................passed
+When User Enter the Valid "KarthikeyanTest", "9ROZ5N".......................passed
+And User Click the Login Button.............................................passed
+Then User Verify Search Hotel Page is Display...............................passed
+When User Enter Valid "London","Hotel Cornice","Standard","2 - Two","18/03/2022","19/03/2022","1 - One","1 - One".passed
+And User Click the Search Button............................................passed
+Then User Verify Select Hotel Page is Dispaly...............................passed
+And User Click Radio Button.................................................passed
+And User Click Continue Button..............................................passed
+Then User Verify Book A Hotel Page is Display...............................passed
+When User Enter "kumar","muthu", "salem"....................................passed
+When User Enter valid "3478901209564367","VISA","November","2022" ,"429"....passed
+And User Click Book Now Button..............................................passed
+Then User Verify Book Confirmation Page and Order Id is Display.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Adactin Hotel Web Page" name="TC_ADA_02&#9;Validation of Adactin Hotel Booking 4" time="57.210963">
+<system-out><![CDATA[Given User Launch Adactin Web Application...................................passed
+Then User Verify Adactin Login Page is Display..............................passed
+When User Enter the Valid "KarthikeyanTest", "9ROZ5N".......................passed
+And User Click the Login Button.............................................passed
+Then User Verify Search Hotel Page is Display...............................passed
+When User Enter Valid "Los Angeles","Hotel Creek","Double","4 - Four","18/03/2022","18/03/2022","1 - One","0 - None".passed
+And User Click the Search Button............................................passed
+Then User Verify Select Hotel Page is Dispaly...............................passed
+And User Click Radio Button.................................................passed
+And User Click Continue Button..............................................passed
+Then User Verify Book A Hotel Page is Display...............................passed
+When User Enter "rr","karthi", "trichy".....................................passed
+When User Enter valid "0986723561037256","VISA","November","2022" ,"320"....passed
+And User Click Book Now Button..............................................passed
+Then User Verify Book Confirmation Page and Order Id is Display.............passed
+]]></system-out>
+</testcase>
+</testsuite>
